@@ -1,6 +1,6 @@
 {
   "name": "jintao-jike-dream-factory",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "main": "electron/main.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "concurrently": "^10.0.4",
     "cross-env": "^10.1.0",
     "electron": "^28.3.3",
-    "electron-builder": "^26.15.3",
+    "electron-builder": "^25.1.8",
     "eslint": "^9",
     "eslint-config-next": "16.2.12",
     "tailwindcss": "^4",
@@ -35,14 +35,27 @@
   },
   "build": {
     "appId": "com.hjike.app",
-    "productName": "金涛即氪梦工厂",
+    "productName": "即氪梦工厂",
     "files": [
-      ".next/**/*",
-      "electron/**/*",
-      "package.json"
+      "electron/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": ".next/standalone",
+        "to": "standalone"
+      }
     ],
     "directories": {
       "output": "dist-electron"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "public/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "public/icon.ico"
     }
   }
 }
