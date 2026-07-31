@@ -19,9 +19,9 @@ export default function Sidebar() {
       {/* Logo */}
       <div className="px-5 py-5 border-b border-white/5">
         <h1 className="text-lg font-bold text-white tracking-wide">
-          金涛即氪梦工厂
+          即氪梦工厂
         </h1>
-        <p className="text-xs text-zinc-500 mt-0.5">JinTao Jike Dream Factory</p>
+        <p className="text-xs text-zinc-500 mt-0.5">Jike Dream Factory</p>
       </div>
 
       {/* Nav */}

@@ -36,7 +36,7 @@ export default function HomePage() {
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 text-center">
         {/* Brand */}
         <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent mb-4 tracking-tight">
-          金涛即氪梦工厂
+          即氪梦工厂
         </h1>
         <h2 className="text-xl md:text-2xl font-bold text-white mb-6">
           企业级大模型管理平台

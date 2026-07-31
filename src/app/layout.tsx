@@ -3,7 +3,7 @@ import './globals.css';
 import Sidebar from '@/components/layout/sidebar';
 
 export const metadata: Metadata = {
-  title: '金涛即氪梦工厂',
+  title: '即氪梦工厂',
   description: '企业级大模型管理平台 — AI 短剧重制平台',
   icons: { icon: '/icon.png' },
 };
