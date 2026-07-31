@@ -21,13 +21,13 @@ export default function DownloadPage() {
             <h3 className="text-lg font-bold text-white mb-2">Windows</h3>
             <p className="text-xs text-zinc-500 mb-6">Windows 10/11 · x64</p>
             <a
-              href="https://github.com/73152973h-png/jike-dream-factory/releases/download/v1.0.0/jike-dream-factory-v1.0.0.zip"
+              href="https://github.com/73152973h-png/jike-dream-factory/releases/download/v1.0.0/Jike-Setup-v1.0.0.exe"
               target="_blank"
               className="inline-block px-6 py-2.5 rounded-xl text-sm font-medium text-white bg-blue-600 hover:bg-blue-500 transition-colors"
             >
               下载 Windows 版
             </a>
-            <p className="text-[10px] text-zinc-500 mt-3">v1.0.0 · 5.7MB · 解压即用</p>
+            <p className="text-[10px] text-zinc-500 mt-3">v1.0.0 · 双击安装到电脑</p>
           </div>
 
           {/* macOS */}
@@ -36,13 +36,13 @@ export default function DownloadPage() {
             <h3 className="text-lg font-bold text-white mb-2">macOS</h3>
             <p className="text-xs text-zinc-500 mb-6">macOS 13+ · Apple Silicon</p>
             <a
-              href="https://github.com/73152973h-png/jike-dream-factory/releases/download/v1.0.0/jike-dream-factory-v1.0.0.zip"
+              href="https://github.com/73152973h-png/jike-dream-factory/releases/download/v1.0.0/Jike-Setup-v1.0.0.exe"
               target="_blank"
               className="inline-block px-6 py-2.5 rounded-xl text-sm font-medium text-white bg-blue-600 hover:bg-blue-500 transition-colors"
             >
               下载 macOS 版
             </a>
-            <p className="text-[10px] text-zinc-500 mt-3">v1.0.0 · 5.7MB · 解压即用</p>
+            <p className="text-[10px] text-zinc-500 mt-3">v1.0.0 · 双击安装到电脑</p>
           </div>
         </div>
 
