@@ -47,7 +47,7 @@ export default function DownloadPage() {
         </div>
 
         <p className="text-xs text-zinc-600 mt-12">
-          也可直接使用 <a href="/" className="text-blue-400 hover:underline">网页版</a>，无需下载
+          也可直接使用 <a href="/" className="text-blue-400 hover:underline">网页版</a>，无需下载 · <a href="https://github.com/73152973h-png/jike-dream-factory/releases" target="_blank" className="text-blue-400 hover:underline">GitHub Releases</a>
         </p>
       </div>
     </div>
